@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="automatiqueage.css">
+        <title> Application d'Identification </title>
+        
+    </head>
+ <body>
+    <h1> Identifiez-vous</h1>
+    <form id="userForm">
+        <label for="firstName">Prénom:</label>
+        <input type="text"id="firstName" required>
+
+        <label for="lastName">Nom:</label>
+        <input type="text" id="lastName" required>
+         
+        
+        
+        <select>
+          <option value="étudiant">Etudiant</option>
+          <option value="salarié">Salarié</option>
+          </select>
+
+          <label for="birthYear"> Année de naissance: </label>
+          <input type="number" id="birthYear" required>
+
+          <button type="submit"> Calculer l'age</button>
+    </form>
+
+    <div class="result" id="result"></div>
+ </body>   
+ <script src="script.js"> </script>
+</html>
