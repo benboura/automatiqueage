@@ -13,7 +13,10 @@ document.getElementById('userForm').addEventListener('submit', (event) => {
 
     document.getElementById('result').innerText = `Vous avez ${age} ans.`; // Affiche l'âge avec l'ID 'result'.
     
-    
+   /* if ( age<18) {getElementById('result').innerText, "vous etes mineur";}
+else{
+    getElementById('result').innerText, "vous etes majeur";
+}*/
 });
 
 
@@ -37,3 +40,4 @@ document.getElementById('userForm').addEventListener('submit', function(event) {
     console.log(`Nom: ${lastName}, Prénom: ${firstName}, âge: ${age}`); // Affiche le nom et prénom dans la console
 
 });
+
