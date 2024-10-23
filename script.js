@@ -21,6 +21,7 @@ else{
 
 
 
+
 document.getElementById('userForm').addEventListener('submit', function(event) {
 
     event.preventDefault(); // Empêche le rechargement de la page

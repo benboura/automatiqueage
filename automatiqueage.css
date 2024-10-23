@@ -13,11 +13,27 @@ input,select{
 button{
     margin-top: 10px;
     padding: 10px;
-    background-color:#4CAF50 ;
+    background-color:#4c65af ;
     color: white;
     border: none;
     cursor: pointer;
 }
 .resul{
     margin-top:20px ;
+}
+html{
+    background-color: #4CAF50;
+}
+
+header{
+   color: beige;
+   border: 2mm ridge rgba(211, 220, 50, .6);
+   background-image:url(https://img.freepik.com/photos-gratuite/beaute-abstraite-automne-dans-motif-veines-feuilles-multicolores-genere-par-ia_188544-9871.jpg);
+}
+
+form{
+    height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
